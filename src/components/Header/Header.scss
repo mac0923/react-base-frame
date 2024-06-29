@@ -1,0 +1,72 @@
+.Header{ 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-container {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .right-container {
+        display: inline-flex;
+        align-items: center;
+        margin-left: auto;
+
+        .item {
+        
+        }
+    }
+
+    .logo {
+        width: 36px;
+        height: 36px;
+        background: var(--gray-9);
+        border-radius: 50%;
+    }
+
+    .nav {
+        margin-left: 64px;
+
+        .nav-item {
+
+        }
+    }
+
+    .language-button {
+        height: 24px;
+        width: 24px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid var(--gray-10);
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+            border-color: var(--gray-11);
+        }
+    }
+
+    .theme-button {
+        height: 24px;
+        width: 24px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 18px;
+        cursor: pointer;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: var(--sage-a4);
+        }
+    }
+}
